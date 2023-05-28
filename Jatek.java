@@ -1,5 +1,7 @@
 import java.util.Random;
 
+import javax.lang.model.util.ElementScanner6;
+
 public class Jatek
 {
     public static void main(String[] args)
@@ -13,7 +15,7 @@ public class Jatek
         // Kezdetben random helyre állítjuk a karaktereket a játéktéren
         int varazsloPozicio = rand.nextInt(jatekterMeret) + 1;
         int harcosPozicio = rand.nextInt(jatekterMeret) + 1;
-
+        StringBuilder eredmenyek = new StringBuilder();
         // Játék ciklus
         while (varazslo.getEletero() > 0 && harcos.getEletero() > 0)
         {
@@ -36,6 +38,10 @@ public class Jatek
                 System.out.println("Varazslo sebzese: " + varazsloSebzes);
                 System.out.println("Harcos sebzese: " + harcosSebzes);
             }
+            
+             // Eredmények hozzáadása az eredményekhez
+             eredmenyek.append("Varazslo pozicio: ").append(varazsloPozicio).append(", Eletero: ").append(varazslo.getEletero()).append("\n");
+             eredmenyek.append("Harcos pozicio: ").append(harcosPozicio).append(", Eletero: ").append(harcos.getEletero()).append("\n");
 
             // Pozíció váltás
             varazsloPozicio = pozicioValtas(varazsloPozicio, harcosPozicio, jatekterMeret);
@@ -48,9 +54,18 @@ public class Jatek
         if (varazslo.getEletero() > 0)
         {
             System.out.println("A gyoztes: Varazslo");
-        } else {
+        } 
+        else if (harcos.getEletero() > 0)
+        {
             System.out.println("A gyoztes: Harcos");
         }
+        else 
+        {
+            System.out.println("Döntetlen");
+        }
+
+        // Eredmények mentése
+        Mentes.mentesEredmenyek(eredmenyek.toString());
     }
 
     // Játéktér kirajzolása
