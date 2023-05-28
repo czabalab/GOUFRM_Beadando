@@ -63,7 +63,7 @@ public class Jatek
         {
             System.out.println("Döntetlen");
         }
-
+        
         // Eredmények mentése
         Mentes.mentesEredmenyek(eredmenyek.toString());
     }
