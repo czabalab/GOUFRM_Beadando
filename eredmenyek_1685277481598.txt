@@ -1,0 +1,12 @@
+Varazslo pozicio: 3, Eletero: 7
+Harcos pozicio: 1, Eletero: 8
+Varazslo pozicio: 2, Eletero: 7
+Harcos pozicio: 3, Eletero: 8
+Varazslo sebzese: 2
+Harcos sebzese: 6
+Varazslo pozicio: 1, Eletero: 1
+Harcos pozicio: 2, Eletero: 6
+Varazslo sebzese: 1
+Harcos sebzese: 5
+
+A gyoztes: Harcos
