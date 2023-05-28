@@ -1,8 +1,6 @@
-Varazslo pozicio: 1, Eletero: 4
-Harcos pozicio: 1, Eletero: 6
-Varazslo pozicio: 3, Eletero: 2
-Harcos pozicio: 2, Eletero: 2
-Varazslo pozicio: 1, Eletero: 2
-Harcos pozicio: 3, Eletero: 2
-Varazslo pozicio: 2, Eletero: -4
-Harcos pozicio: 1, Eletero: -3
+Varazslo pozicio: 1, Eletero: 7
+Harcos pozicio: 1, Eletero: 4
+Varazslo pozicio: 2, Eletero: 1
+Harcos pozicio: 3, Eletero: 3
+Varazslo pozicio: 1, Eletero: -3
+Harcos pozicio: 2, Eletero: 1
